@@ -1,0 +1,17 @@
+    node {
+	stage('Git clone'){
+	git credentialsId: 'jpg27784', url: 'https://github.com/JPG27784/jpdevops.git'
+    }
+	stage('clean'){
+	sh 'mvn clean'
+}
+	stage('Compile'){
+	sh 'mvn compile'
+	}
+	stage('package'){
+	sh 'mvn compile'
+	}
+	stage('Deploy'){
+	sh 'mvn compile'
+	}
+}
