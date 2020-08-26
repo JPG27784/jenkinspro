@@ -1,6 +1,6 @@
     node {
 	stage('Git clone'){
-	git credentialsId: 'jpg27784', url: 'https://github.com/JPG27784/jpdevops.git'
+	git credentialsId: 'jpg27784', url: 'https://github.com/JPG27784/jenkinspro.git'
     }
 	stage('clean'){
 	sh 'mvn clean'
