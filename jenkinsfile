@@ -9,9 +9,9 @@
 	sh 'mvn compile'
 	}
 	stage('package'){
-	sh 'mvn compile'
+	sh 'mvn package'
 	}
 	stage('Deploy'){
-	sh 'mvn compile'
+	sh 'mvn deploy'
 	}
 }
