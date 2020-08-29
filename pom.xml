@@ -52,7 +52,7 @@
 		<snapshotRepository>
 			<id>deployment</id>
 			<name>snapshots</name>
-			<url>http://34.121.128.191/:8081/repository/kig-app/</url>
+			<url>http://34.121.128.191:8081/repository/kig-app/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
