@@ -2,16 +2,32 @@
 	stage('Git clone'){
 	git credentialsId: 'jpg27784', url: 'https://github.com/JPG27784/jenkinspro.git'
     }
-	stage('clean'){
+	stage('clean')
+	{
 	sh 'mvn clean'
-}
-	stage('Compile'){
+    }
+
+	stage('code scan')
+	{
+		sh 'mvn sonar:sonar \
+	  -Dsonar.host.url=http://34.69.125.6:9000 \
+	  -Dsonar.login=8bfa058c103537ddcc924053a8fd8a52a44e3057'
+	}
+    stage('code validation')
+	{
+	 sh 'mvn validation'
+	}
+	
+	stage('Compile')
+	{
 	sh 'mvn compile'
 	}
-	stage('package'){
+	stage('package')
+	{
 	sh 'mvn package'
 	}
-	stage('Deploy'){
+	stage('Deploy')
+	{
 	sh 'mvn deploy'
 	}
 }
