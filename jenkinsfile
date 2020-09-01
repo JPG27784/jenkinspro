@@ -13,12 +13,7 @@
 	  -Dsonar.host.url=http://34.69.125.6:9000 \
 	  -Dsonar.login=8bfa058c103537ddcc924053a8fd8a52a44e3057'
 	}
-    stage('code validation')
-	{
-	 sh 'mvn validation'
-	}
-	
-	stage('Compile')
+  	stage('Compile')
 	{
 	sh 'mvn compile'
 	}
