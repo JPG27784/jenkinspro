@@ -3,11 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.kigapp</groupId>
 	<artifactId>kig</artifactId>
-<<<<<<< HEAD
-	<version>3-SNAPSHOT</version>
-=======
 	<version>2-SNAPSHOT</version>
->>>>>>> a76313c3440f6ffaa805c5e3fffa92a8fae5a8d5
 	<packaging>war</packaging>
 	<name>Web Application</name>
 	<description>Java Webapp</description>
