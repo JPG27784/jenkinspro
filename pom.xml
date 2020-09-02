@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.kigapp</groupId>
 	<artifactId>kig</artifactId>
-	<version>19-SNAPSHOT</version>
+	<version>3-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Web Application</name>
 	<description>Java Webapp</description>
@@ -52,7 +52,7 @@
 		<snapshotRepository>
 			<id>deployment</id>
 			<name>snapshots</name>
-			<url>http://35.238.163.126:8081/repository/kig-app/</url>
+			<url>http://34.68.18.223:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
