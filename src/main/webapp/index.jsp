@@ -7,12 +7,13 @@
 
 <body bgcolor="#1625CA">
 <center>
-<h2> <font color="C0CA16"> Welcome MR JP </font> </h2>
+<h2> <font color="C0CA16"> Congratulations MR JP </font> </h2>
 
 <picture>
   <source media="(min-width: 650px)" srcset="img_logol.jpg">
   <source media="(min-width: 465px)" srcset="img_logol.jpg">
-  <img src="img_logol.jpg" style="width:auto;">
+ -- <img src="img_logol.jpg" style="width:auto;">
+  <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
 </picture>
 
 
