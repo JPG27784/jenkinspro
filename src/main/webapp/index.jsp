@@ -5,15 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body bgcolor="#1625CA">
+<body bgcolor="#C0CA16">
 <center>
-<h2> <font color="C0CA16"> Congratulations MR JP </font> </h2>
+<h2> <font color="16CA23"> Congratulations MR JP </font> </h2>
 
 <picture>
   <source media="(min-width: 650px)" srcset="img_logol.jpg">
   <source media="(min-width: 465px)" srcset="img_logol.jpg">
- -- <img src="img_logol.jpg" style="width:auto;">
-  <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+   <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
 </picture>
 
 
