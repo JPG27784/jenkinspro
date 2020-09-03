@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body bgcolor="#DCAD89">
+<body bgcolor="#CA3616">
 <center>
-<h2> <font color="B3D185"> Welcome To KIG </font> </h2>
+<h2> <font color="CA16CA"> Welcome To KIG </font> </h2>
 
 <picture>
   <source media="(min-width: 650px)" srcset="img_logol.jpg">
